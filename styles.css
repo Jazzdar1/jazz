@@ -1,0 +1,21 @@
+#video-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+#videoPlayer {
+    width: 100%;
+    height: auto;
+}
+
+#epg {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    width: calc(100% - 40px);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    display: none; /* Initially hidden */
+}
